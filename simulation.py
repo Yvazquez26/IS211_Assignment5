@@ -18,7 +18,7 @@ def downloadData(url):
         the given URL.
     
     """
-    datafile = urllib.urlopen(url)
+    datafile = urllib.urlopen('http://s3.amazonaws.com/cuny-is211-spring2015/requests.csv')
     return datafile
 
 class Queue:
